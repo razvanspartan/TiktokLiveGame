@@ -5,7 +5,11 @@ __pycache__/
 
 # C extensions
 *.so
+.idea/
+pyenv.cfg
+include/site/python3.8/pygame
 
+scripts/
 # Distribution / packaging
 .Python
 build/
