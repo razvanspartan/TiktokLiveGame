@@ -8,10 +8,8 @@ __pycache__/
 
 .idea/
 pyenv.cfg
-include/
-site/
-python3.8/
-pygame
+
+include/site/python3.8/pygame/
 
 scripts/
 # Distribution / packaging
