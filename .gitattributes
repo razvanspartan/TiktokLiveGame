@@ -2,3 +2,5 @@
 *.sh linguist-vendored
 *.nu linguist-vendored
 *.bat linguist-vendored
+*.bash linguist-vendored
+*.zsh linguist-vendored
