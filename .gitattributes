@@ -1,0 +1,4 @@
+*.ps1 linguist-vendored
+*.sh linguist-vendored
+*.nu linguist-vendored
+*.bat linguist-vendored
