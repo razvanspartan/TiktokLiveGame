@@ -19,8 +19,30 @@ class GameWindow:
         pg.time.set_timer(self.Monster_attack_event,10000)
         monster1_image = pg.image.load('images/Monster1.png')
         self.monster1Visual = pg.transform.smoothscale(monster1_image,(150,150))
-        self.monster=Monster1(5,100,100, self.monster1Visual)
+        self.monster=Monster1(50,100,100, self.monster1Visual)
 
+    def Game_Over_scene(self):
+        SceneContinue=True
+        time=5000
+        while SceneContinue:
+            self.monster.attack=0
+            time-=1
+            if time==0:
+                SceneContinue=False
+            for event in pg.event.get():
+                if event.type == pg.QUIT:
+                    self.run = False
+                    pg.quit()
+            self.screen.fill((255,255,255))
+            game_over = pg.font.Font(None, 36)
+            text = game_over.render('Game Over', True, BLACK)
+            self.screen.blit(text, (400, 300))
+            pg.display.update()
+        return
+    def draw_stat_rectangle(self):
+        '''This function draws the player's health and attack on the screen.'''
+        pg.draw.rect(self.screen, WHITE, (10,470,180,180))
+        pg.draw.rect(self.screen, BLACK, (0, 450, 500, 200), 2)
     def draw_stat_bar(self,player):
         '''This function draws the player's health and attack on the screen. It takes in the player object.'''
         font = pg.font.Font(None, 36)
@@ -57,14 +79,22 @@ class GameWindow:
         pg.mixer_music.play(-1)
         while self.run:
             pg.time.delay(100)
+
             self.screen.fill((255,255,255))
+            self.draw_stat_rectangle()
             self.draw_health_rectangle(self.screen, 650, 500, self.player.health_current)
             self.draw_monster(self.screen, self.monster)
             self.draw_monster_health(self.screen, self.monster)
             self.draw_stat_bar(self.player)
+            if self.player.health_current <= 0:
+                self.Game_Over_scene()
+                self.player=Player(1,200,100, self.playerVisual,1)
+                self.monster=Monster1(50,100,100, self.monster1Visual)
             key = pg.key.get_pressed()
             if key[pg.K_l]:
                 self.events.Event_L_Key(self.screen,self.monster,self.player)
+            elif key[pg.K_r]:
+                self.player.health_current = self.player.health_current + 5
             for event in pg.event.get():
                 if event.type == pg.QUIT:
                     self.run = False

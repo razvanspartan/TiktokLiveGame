@@ -16,6 +16,7 @@ class Player:
         self.health_current += health_amount
 
     def take_damage(self, damage):
+        pass
         self.health_current -= damage
         if self.health_current < 0:
             self.health_current = 0
