@@ -1,0 +1,168 @@
+Gift ID: 6064, Gift Name: GG, Gift Type: 1
+Gift ID: 5827, Gift Name: Ice Cream Cone, Gift Type: 1
+Gift ID: 5655, Gift Name: Rose, Gift Type: 1
+Gift ID: 5269, Gift Name: TikTok, Gift Type: 1
+Gift ID: 5487, Gift Name: Finger Heart, Gift Type: 1
+Gift ID: 8913, Gift Name: Rosa, Gift Type: 1
+Gift ID: 5658, Gift Name: Perfume, Gift Type: 1
+Gift ID: 5879, Gift Name: Doughnut, Gift Type: 1
+Gift ID: 9072, Gift Name: TikTok Universe, Gift Type: 2
+Gift ID: 8582, Gift Name: TikTok Stars, Gift Type: 2
+Gift ID: 8381, Gift Name: Seal and Whale, Gift Type: 2
+Gift ID: 7823, Gift Name: Leon and Lion, Gift Type: 2
+Gift ID: 8456, Gift Name: Zeus, Gift Type: 2
+Gift ID: 8391, Gift Name: Sam the Whale, Gift Type: 2
+Gift ID: 6369, Gift Name: Lion, Gift Type: 2
+Gift ID: 6955, Gift Name: Golden sports car, Gift Type: 2
+Gift ID: 7610, Gift Name: Dragon Flame, Gift Type: 2
+Gift ID: 7319, Gift Name: Phoenix, Gift Type: 2
+Gift ID: 7400, Gift Name: Adam’s Dream, Gift Type: 2
+Gift ID: 6751, Gift Name: TikTok Shuttle, Gift Type: 2
+Gift ID: 9501, Gift Name: Yacht, Gift Type: 2
+Gift ID: 9110, Gift Name: American Eagle, Gift Type: 2
+Gift ID: 8707, Gift Name: Diamond flight, Gift Type: 2
+Gift ID: 9466, Gift Name: Amusement Park, Gift Type: 2
+Gift ID: 7978, Gift Name: Leopard, Gift Type: 2
+Gift ID: 8468, Gift Name: Bran Castle, Gift Type: 2
+Gift ID: 8912, Gift Name: Rosa Nebula, Gift Type: 2
+Gift ID: 9556, Gift Name: Leopard, Gift Type: 2
+Gift ID: 8419, Gift Name: Red Lightning, Gift Type: 2
+Gift ID: 6149, Gift Name: Interstellar, Gift Type: 2
+Gift ID: 6203, Gift Name: Sunset Speedway, Gift Type: 2
+Gift ID: 8916, Gift Name: Leon and Lili, Gift Type: 2
+Gift ID: 8420, Gift Name: Star Throne, Gift Type: 2
+Gift ID: 6089, Gift Name: Sports Car, Gift Type: 2
+Gift ID: 6790, Gift Name: Celebration Time, Gift Type: 2
+Gift ID: 9467, Gift Name: Lili the Leopard, Gift Type: 2
+Gift ID: 7612, Gift Name: Truck, Gift Type: 2
+Gift ID: 8433, Gift Name: Silver Sports Car, Gift Type: 2
+Gift ID: 8778, Gift Name: Wolf, Gift Type: 2
+Gift ID: 9008, Gift Name: Wolf, Gift Type: 2
+Gift ID: 9500, Gift Name: Flying Jets, Gift Type: 2
+Gift ID: 5938, Gift Name: Pool Party, Gift Type: 2
+Gift ID: 5767, Gift Name: Private Jet, Gift Type: 2
+Gift ID: 6646, Gift Name: Leon the Kitten, Gift Type: 2
+Gift ID: 8373, Gift Name: Tractor, Gift Type: 2
+Gift ID: 6148, Gift Name: Flower Overflow, Gift Type: 2
+Gift ID: 6835, Gift Name: Gift Box, Gift Type: 2
+Gift ID: 5652, Gift Name: Ferris Wheel, Gift Type: 2
+Gift ID: 6563, Gift Name: Meteor Shower, Gift Type: 2
+Gift ID: 8086, Gift Name: Car Drifting, Gift Type: 2
+Gift ID: 9499, Gift Name: Golden Party, Gift Type: 2
+Gift ID: 9198, Gift Name: Houdini, Gift Type: 2
+Gift ID: 9468, Gift Name: Rhythmic Bear, Gift Type: 2
+Gift ID: 5765, Gift Name: Motorcycle, Gift Type: 2
+Gift ID: 6954, Gift Name: Cupid, Gift Type: 2
+Gift ID: 7628, Gift Name: Brown Bear, Gift Type: 2
+Gift ID: 6820, Gift Name: Whale diving, Gift Type: 2
+Gift ID: 9309, Gift Name: Baby Dragon, Gift Type: 2
+Gift ID: 6033, Gift Name: Make-up Box, Gift Type: 2
+Gift ID: 6348, Gift Name: Rabbit, Gift Type: 2
+Gift ID: 6789, Gift Name: Star of Red Carpet, Gift Type: 2
+Gift ID: 6834, Gift Name: Gift Box, Gift Type: 2
+Gift ID: 6862, Gift Name: Cooper Flies Home, Gift Type: 2
+Gift ID: 7529, Gift Name: Mystery Firework, Gift Type: 2
+Gift ID: 8277, Gift Name: Love Drop, Gift Type: 2
+Gift ID: 5651, Gift Name: Garland , Gift Type: 2
+Gift ID: 5955, Gift Name: Champion, Gift Type: 2
+Gift ID: 7467, Gift Name: Chasing the Dream, Gift Type: 2
+Gift ID: 7894, Gift Name: Cherry Blossoms, Gift Type: 2
+Gift ID: 9824, Gift Name: Lover’s Lock, Gift Type: 2
+Gift ID: 8329, Gift Name: Streamer’s Setup, Gift Type: 2
+Gift ID: 5876, Gift Name: Arcade Game, Gift Type: 2
+Gift ID: 6090, Gift Name: Fireworks, Gift Type: 2
+Gift ID: 5587, Gift Name: Gold Mine, Gift Type: 2
+Gift ID: 6199, Gift Name: Email Message, Gift Type: 2
+Gift ID: 6200, Gift Name: Mirror Bloom, Gift Type: 2
+Gift ID: 6364, Gift Name: Galaxy, Gift Type: 2
+Gift ID: 6781, Gift Name: Watermelon Love, Gift Type: 2
+Gift ID: 6842, Gift Name: Gerry the Giraffe, Gift Type: 2
+Gift ID: 7102, Gift Name: Magic Cat, Gift Type: 2
+Gift ID: 8606, Gift Name: Dinosaur , Gift Type: 2
+Gift ID: 8972, Gift Name: Glowing Jellyfish, Gift Type: 2
+Gift ID: 9109, Gift Name: Dinosaur, Gift Type: 2
+Gift ID: 9360, Gift Name: Gerry the Giraffe, Gift Type: 2
+Gift ID: 9498, Gift Name: Blooming Ribbons, Gift Type: 2
+Gift ID: 6233, Gift Name: Travel with You, Gift Type: 2
+Gift ID: 9717, Gift Name: Lucky Airdrop Box, Gift Type: 2
+Gift ID: 5978, Gift Name: Train, Gift Type: 2
+Gift ID: 9197, Gift Name: TikTok Trophy, Gift Type: 2
+Gift ID: 9555, Gift Name: Swan, Gift Type: 2
+Gift ID: 7168, Gift Name: Money Gun, Gift Type: 2
+Gift ID: 9792, Gift Name: Manifesting, Gift Type: 2
+Gift ID: 5731, Gift Name: Coral, Gift Type: 2
+Gift ID: 7895, Gift Name: Gamer Cyber Mask, Gift Type: 2
+Gift ID: 8316, Gift Name: Summer Flowers, Gift Type: 2
+Gift ID: 8914, Gift Name: Forever Rosa, Gift Type: 2
+Gift ID: 9825, Gift Name: Magic Rhythm, Gift Type: 2
+Gift ID: 6007, Gift Name: Boxing Gloves, Gift Type: 2
+Gift ID: 6265, Gift Name: Duck, Gift Type: 2
+Gift ID: 6267, Gift Name: Corgi, Gift Type: 2
+Gift ID: 6621, Gift Name: Boss, Gift Type: 2
+Gift ID: 8111, Gift Name: Superpower, Gift Type: 2
+Gift ID: 8256, Gift Name: Flower, Gift Type: 2
+Gift ID: 8260, Gift Name: Elephant trunk, Gift Type: 4
+Gift ID: 8873, Gift Name: TikTok Crown, Gift Type: 4
+Gift ID: 9465, Gift Name: Fruit Friends, Gift Type: 2
+Gift ID: 9535, Gift Name: Play for you, Gift Type: 4
+Gift ID: 9536, Gift Name: Fake smile, Gift Type: 4
+Gift ID: 5509, Gift Name: Sunglasses, Gift Type: 4
+Gift ID: 5586, Gift Name: Hearts, Gift Type: 4
+Gift ID: 5880, Gift Name: Lock and Key, Gift Type: 2
+Gift ID: 6437, Gift Name: Garland Headpiece, Gift Type: 4
+Gift ID: 6671, Gift Name: Love You, Gift Type: 2
+Gift ID: 6713, Gift Name: Cheer For You, Gift Type: 2
+Gift ID: 7896, Gift Name: Gamer Cat, Gift Type: 2
+Gift ID: 7957, Gift Name: The Passion Rose, Gift Type: 4
+Gift ID: 8050, Gift Name: Top to the Top, Gift Type: 4
+Gift ID: 8600, Gift Name: Sending positivity, Gift Type: 2
+Gift ID: 8966, Gift Name: Panther Paws, Gift Type: 2
+Gift ID: 9152, Gift Name: Spin with me, Gift Type: 2
+Gift ID: 9416, Gift Name: Spider, Gift Type: 2
+Gift ID: 5585, Gift Name: Confetti, Gift Type: 2
+Gift ID: 5660, Gift Name: Hand Hearts, Gift Type: 2
+Gift ID: 6968, Gift Name: Hand Heart, Gift Type: 2
+Gift ID: 7264, Gift Name: Bear love, Gift Type: 2
+Gift ID: 5659, Gift Name: Paper Crane, Gift Type: 2
+Gift ID: 6097, Gift Name: Little Crown, Gift Type: 4
+Gift ID: 6104, Gift Name: Cap, Gift Type: 4
+Gift ID: 6427, Gift Name: Hat and Mustache, Gift Type: 4
+Gift ID: 8130, Gift Name: Like-Pop, Gift Type: 1
+Gift ID: 6551, Gift Name: Cheese Donuts, Gift Type: 1
+Gift ID: 7764, Gift Name: Star Throne, Gift Type: 2
+Gift ID: 6540, Gift Name: Romanian Polenta, Gift Type: 1
+Gift ID: 6541, Gift Name: Chimney Cake, Gift Type: 1
+Gift ID: 6560, Gift Name: Tiny Diny, Gift Type: 1
+Gift ID: 8965, Gift Name: Panther, Gift Type: 1
+Gift ID: 9700, Gift Name: Coffee, Gift Type: 1
+Gift ID: 9461, Gift Name: Carpathian Deer, Gift Type: 2
+Gift ID: 7554, Gift Name: Cherry, Gift Type: 1
+Gift ID: 9287, Gift Name: Potato, Gift Type: 1
+Gift ID: 6246, Gift Name: Thumbs Up, Gift Type: 1
+Gift ID: 6247, Gift Name: Heart, Gift Type: 1
+Gift ID: 6784, Gift Name: Cake Slice, Gift Type: 1
+Gift ID: 6788, Gift Name: Glow Stick, Gift Type: 1
+Gift ID: 6890, Gift Name: Love you, Gift Type: 2
+Gift ID: 9087, Gift Name: Flame heart, Gift Type: 1
+Gift ID: 9202, Gift Name: Flame heart, Gift Type: 1
+Gift ID: 9577, Gift Name: Squirrel, Gift Type: 1
+Gift ID: 9701, Gift Name: Love Letter, Gift Type: 1
+Gift ID: 9710, Gift Name: Birthday Cake, Gift Type: 1
+Gift ID: 9427, Gift Name: Pegasus, Gift Type: 2
+Gift ID: 9092, Gift Name: Fire Phoenix, Gift Type: 2
+Gift ID: 8651, Gift Name: Thunder Falcon, Gift Type: 2
+Gift ID: 7312, Gift Name: TikTok Universe+, Gift Type: 2
+Gift ID: 7125, Gift Name: Premium Shuttle, Gift Type: 2
+Gift ID: 8248, Gift Name: Fly Love, Gift Type: 2
+Gift ID: 8247, Gift Name: Happy Party, Gift Type: 2
+Gift ID: 7124, Gift Name: Signature Jet, Gift Type: 2
+Gift ID: 8245, Gift Name: Here We Go, Gift Type: 2
+Gift ID: 7123, Gift Name: Shiny air balloon, Gift Type: 2
+Gift ID: 9138, Gift Name: Trending Figure, Gift Type: 2
+Gift ID: 7122, Gift Name: Gem Gun, Gift Type: 2
+Gift ID: 8244, Gift Name: Hands Up, Gift Type: 2
+Gift ID: 7121, Gift Name: Marvelous Confetti, Gift Type: 2
+Gift ID: 6432, Gift Name: Star, Gift Type: 4
+Gift ID: 8243, Gift Name: Cheer You Up, Gift Type: 1
+Gift ID: 9139, Gift Name: Team Bracelet, Gift Type: 1
+Gift ID: 7934, Gift Name: Heart Me, Gift Type: 4
