@@ -102,7 +102,4 @@ class GameWindow:
                 elif event.type == self.Monster_attack_event:
                     self.events.monster_attack(self.player, self.monster)
             self.screen.blit(self.player.image,(600,300))
-            if len(giftlist)>0:
-                gift=giftlist.pop(0)
-                print(gift, "jhgfhjkjhg")
             pg.display.update()
