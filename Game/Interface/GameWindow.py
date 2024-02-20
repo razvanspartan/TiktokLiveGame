@@ -74,7 +74,7 @@ class GameWindow:
 
     '''This function runs the game and updates the screen. It also checks for events 
     such as the monster attack event and the quit event. It also checks for the like press event.'''
-    def run_game(self):
+    def run_game(self, giftlist):
         pg.mixer_music.load('images/soundtrack.mp3')
         pg.mixer_music.play(-1)
         while self.run:
@@ -102,4 +102,7 @@ class GameWindow:
                 elif event.type == self.Monster_attack_event:
                     self.events.monster_attack(self.player, self.monster)
             self.screen.blit(self.player.image,(600,300))
+            if len(giftlist)>0:
+                gift=giftlist.pop(0)
+                print(gift, "jhgfhjkjhg")
             pg.display.update()

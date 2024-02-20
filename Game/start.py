@@ -10,5 +10,5 @@ def main():
     thread.start()
     print(giftlist,"3")
     print(id(giftlist),"4")
-    game.run_game()
+    game.run_game(giftlist)
 main()
