@@ -3,6 +3,8 @@ from Game.Event_Handler.EventHandler import EventHandler
 from constants import *
 from Game.Interface.Monster_and_player_classes import *
 class GameWindow:
+    path = "..\Game\events.txt"
+    fileopen=open(path,"r")
     pg.init()
     def __init__(self):
         self.events = EventHandler()
@@ -20,6 +22,8 @@ class GameWindow:
         monster1_image = pg.image.load('images/Monster1.png')
         self.monster1Visual = pg.transform.smoothscale(monster1_image,(150,150))
         self.monster=Monster1(50,100,100, self.monster1Visual)
+        path = "..\Game\events.txt"
+        self.fileopen=open(path,"r")
 
     def Game_Over_scene(self):
         SceneContinue=True
@@ -82,6 +86,7 @@ class GameWindow:
 
             self.screen.fill((255,255,255))
             self.draw_stat_rectangle()
+-
             self.draw_health_rectangle(self.screen, 650, 500, self.player.health_current)
             self.draw_monster(self.screen, self.monster)
             self.draw_monster_health(self.screen, self.monster)
@@ -90,8 +95,8 @@ class GameWindow:
                 self.Game_Over_scene()
                 self.player=Player(1,200,100, self.playerVisual,1)
                 self.monster=Monster1(50,100,100, self.monster1Visual)
-            key = pg.key.get_pressed()
-            if key[pg.K_l]:
+            command = self.fileopen.readline()
+            if command == "like \n":
                 self.events.Event_L_Key(self.screen,self.monster,self.player)
             elif key[pg.K_r]:
                 self.player.health_current = self.player.health_current + 5
