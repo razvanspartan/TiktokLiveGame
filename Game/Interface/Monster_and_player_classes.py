@@ -14,6 +14,8 @@ class Player:
 
     def heal(self, health_amount):
         self.health_current += health_amount
+        if self.health_current > self.health_max:
+            self.health_current = self.health_max
 
     def take_damage(self, damage):
         pass

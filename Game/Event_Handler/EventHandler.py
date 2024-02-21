@@ -19,6 +19,16 @@ class EventHandler:
     def monster_attack(self, player, monster):
         player.take_damage(monster.attack)
 
+    def Event_Rose_Key(self,screen,monster,player,command):
+        font = pg.font.Font(pg.font.get_default_font(), 16)
+        text = font.render("Player Healed!", True,  BLACK, WHITE)
+        textrect= text.get_rect()
+        textrect.center = (600,300)
+        screen.blit(text, textrect)
+        command=int(command)
+        for i in range(command):
+            player.heal(5)
+
 
 
 

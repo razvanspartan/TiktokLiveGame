@@ -3,9 +3,10 @@ from Game.Event_Handler.EventHandler import EventHandler
 from constants import *
 from Game.Interface.Monster_and_player_classes import *
 class GameWindow:
-    path = "..\Game\events.txt"
-    fileopen=open(path,"r")
+    path = "events.txt"
     pg.init()
+    with open(path,"w") as file:
+        file.write("like\n")
     def __init__(self):
         self.events = EventHandler()
         self.run = True
@@ -15,15 +16,18 @@ class GameWindow:
 
         player_image = pg.image.load('images/player.png')
         self.playerVisual = pg.transform.smoothscale(player_image,(200,200))
-        self.player=Player(1,50,100, self.playerVisual,1)
+        self.player=Player(10,50,100, self.playerVisual,1)
 
         self.Monster_attack_event=pg.USEREVENT+1
         pg.time.set_timer(self.Monster_attack_event,10000)
         monster1_image = pg.image.load('images/Monster1.png')
         self.monster1Visual = pg.transform.smoothscale(monster1_image,(150,150))
-        self.monster=Monster1(50,100,100, self.monster1Visual)
+        self.monster=Monster1(5,100,100, self.monster1Visual)
+
         path = "..\Game\events.txt"
         self.fileopen=open(path,"r")
+        self.current_line = 0
+        self.current_length = 0
 
     def Game_Over_scene(self):
         SceneContinue=True
@@ -82,11 +86,10 @@ class GameWindow:
         pg.mixer_music.load('images/soundtrack.mp3')
         pg.mixer_music.play(-1)
         while self.run:
-            pg.time.delay(100)
 
             self.screen.fill((255,255,255))
             self.draw_stat_rectangle()
--
+
             self.draw_health_rectangle(self.screen, 650, 500, self.player.health_current)
             self.draw_monster(self.screen, self.monster)
             self.draw_monster_health(self.screen, self.monster)
@@ -95,16 +98,28 @@ class GameWindow:
                 self.Game_Over_scene()
                 self.player=Player(1,200,100, self.playerVisual,1)
                 self.monster=Monster1(50,100,100, self.monster1Visual)
-            command = self.fileopen.readline()
-            if command == "like \n":
-                self.events.Event_L_Key(self.screen,self.monster,self.player)
-            elif key[pg.K_r]:
-                self.player.health_current = self.player.health_current + 5
+            with open(self.path,"r") as file:
+                lines = file.readlines()
+                if len(lines) > len(lines[self.current_line]):
+                    print(lines)
+                    print(lines[self.current_line])
+                    if lines[self.current_line] == "like\n":
+                        print(lines[self.current_line])
+                        self.events.Event_L_Key(self.screen,self.monster,self.player)
+                    elif lines[self.current_line] == "Rose\n":
+                        print(lines[self.current_line])
+                        self.events.Event_Rose_Key(self.screen,self.monster,self.player, lines[self.current_line+1])
+                        self.current_line += 1
+                    self.current_length = len(lines)
+                    self.current_line += 1
             for event in pg.event.get():
                 if event.type == pg.QUIT:
                     self.run = False
                     pg.quit()
                 elif event.type == self.Monster_attack_event:
                     self.events.monster_attack(self.player, self.monster)
+                else:
+                    break
+
             self.screen.blit(self.player.image,(600,300))
             pg.display.update()

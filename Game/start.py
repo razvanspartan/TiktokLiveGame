@@ -6,8 +6,8 @@ giftlist=[]
 def main():
     game = GameWindow()
     #Dont remove giftlist argument or it breaks, idk why
-    thread=Thread(target=Tiktok_connector.TiktokConnector.runTiktokClient, args=(giftlist,))
+    '''thread=Thread(target=Tiktok_connector.TiktokConnector.runTiktokClient, args=(giftlist,))
     thread.daemon = True
-    thread.start()
+    thread.start()'''
     game.run_game(giftlist)
 main()

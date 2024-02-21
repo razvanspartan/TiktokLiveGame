@@ -18,14 +18,14 @@ async def on_comment(event: CommentEvent):
 @client.on("like")
 async def on_like(event: LikeEvent):
     with open(path,"a") as file:
-        file.write("like \n")
+        file.write("like\n")
 
 @client.on("gift")
 async def on_gift(event: GiftEvent):
     # Streakable gift & streak is over
     if event.gift.streakable and not event.gift.streaking:
         with open(path,"a") as file:
-            file.write(f"{event.gift.info.name} {event.gift.count} \n")
+            file.write(f"{event.gift.info.name}\n{event.gift.count}\n")
 
 
     # Non-streakable gift
