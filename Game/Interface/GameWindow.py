@@ -2,10 +2,10 @@ import pygame as pg
 from Game.Event_Handler.EventHandler import EventHandler
 from constants import *
 from Game.Interface.Monster_and_player_classes import *
+from datetime import datetime
 class GameWindow:
-    path = "events.txt"
     pg.init()
-    with open(path,"w") as file:
+    with open("..\Game\events.txt","w") as file:
         file.write("like\n")
     def __init__(self):
         self.events = EventHandler()
@@ -24,7 +24,7 @@ class GameWindow:
         self.monster1Visual = pg.transform.smoothscale(monster1_image,(150,150))
         self.monster=Monster1(5,100,100, self.monster1Visual)
 
-        path = "..\Game\events.txt"
+        path = "..\Game\Event_Handler\events1.txt"
         self.fileopen=open(path,"r")
         self.current_line = 0
         self.current_length = 0
@@ -80,6 +80,21 @@ class GameWindow:
         pg.draw.rect(screen, RED, fill_rect)
         pg.draw.rect(screen, BLACK, outline_rect, 2)
 
+    def checkforerrors(self,lines):
+        auxiliary_lines=""
+        '''This function checks for errors in the game.'''
+        if len(lines) > 0:
+            for x in lines[:self.current_line]:
+                auxiliary_lines = auxiliary_lines+x
+            if len(lines)>len(auxiliary_lines):
+                return True
+            else:
+                return False
+        else:
+            return False
+
+
+
     '''This function runs the game and updates the screen. It also checks for events 
     such as the monster attack event and the quit event. It also checks for the like press event.'''
     def run_game(self, giftlist):
@@ -96,18 +111,20 @@ class GameWindow:
             self.draw_stat_bar(self.player)
             if self.player.health_current <= 0:
                 self.Game_Over_scene()
-                self.player=Player(1,200,100, self.playerVisual,1)
-                self.monster=Monster1(50,100,100, self.monster1Visual)
-            with open(self.path,"r") as file:
+                self.player=Player(20,100,100, self.playerVisual,1)
+                self.monster=Monster1(10,100,100, self.monster1Visual)
+            with open("..\Game\events.txt") as file:
                 lines = file.readlines()
-                if len(lines) > len(lines[self.current_line]):
+                if self.checkforerrors(lines):
                     print(lines)
                     print(lines[self.current_line])
+                    print(self.current_line)
+                    now = datetime.now()
+                    current_time = now.strftime("%H:%M:%S")
+                    print(current_time)
                     if lines[self.current_line] == "like\n":
-                        print(lines[self.current_line])
                         self.events.Event_L_Key(self.screen,self.monster,self.player)
                     elif lines[self.current_line] == "Rose\n":
-                        print(lines[self.current_line])
                         self.events.Event_Rose_Key(self.screen,self.monster,self.player, lines[self.current_line+1])
                         self.current_line += 1
                     self.current_length = len(lines)

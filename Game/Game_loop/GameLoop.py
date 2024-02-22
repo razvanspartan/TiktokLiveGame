@@ -1,3 +1,4 @@
+'''import os
 import time
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
@@ -17,21 +18,22 @@ class MyHandler(FileSystemEventHandler):
                 new_content = file.read()
                 # Update the last known position
                 self.last_position = file.tell()
-                # Return the new content
-                return new_content
+                # Print the new content
+                print(f"New modifications in '{self.filename}':")
+                print(new_content)
 
 if __name__ == "__main__":
-    # Specify the directory to monitor
-    path = '/Game'
+    # Get the current directory
+    current_directory = os.path.dirname(os.path.abspath(__file__))
     # Specify the filename to monitor
-    filename = 'events.txt'
+    filename = 'events1.txt'
 
     # Create an event handler
     event_handler = MyHandler(filename)
 
     # Create an observer
     observer = Observer()
-    observer.schedule(event_handler, path, recursive=True)
+    observer.schedule(event_handler, current_directory, recursive=True)
 
     # Start the observer
     observer.start()
@@ -43,3 +45,6 @@ if __name__ == "__main__":
         observer.stop()
 
     observer.join()
+
+Handler=MyHandler("events1.txt")
+Myhandler.on_modified("events1.txt")'''
